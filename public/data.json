@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Zus Watch",
+    "github": "https://github.com/thanhtuyen3007/zus-watch",
+    "live": "https://zus-watch.vercel.app",
+    "description": "An e-commerce website for watches with shopping cart and admin dashboard (CRUD). Built with TypeScript, Redux Toolkit, and JSON Server.",
+    "features": [
+      "Product list, detail, cart system",
+      "Admin dashboard (CRUD)",
+      "State management with Redux Toolkit",
+      "Responsive layout using Bootstrap"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Router DOM",
+      "Bootstrap",
+      "React-Bootstrap",
+      "SASS",
+      "JSON Server",
+      "Axios",
+      "Font Awesome"
+    ]
+  },
+  {
+    "title": "Travel Booking",
+    "github": "https://github.com/thanhtuyen3007/travel-booking",
+    "live": "https://travel-booking.vercel.app",
+    "description": "A responsive tour booking website with tour listings, search, and booking form. Built for UI/UX practice with React and Bootstrap.",
+    "features": [
+      "Tour listing and booking form",
+      "Search functionality and routing",
+      "Responsive UI with layout fidelity"
+    ],
+    "techStack": [
+      "React",
+      "React Router DOM",
+      "Bootstrap",
+      "SASS",
+      "Axios",
+      "Normalize.css",
+      "Font Awesome",
+      "Tippy.js",
+      "Customize CRA"
+    ]
+  },
+  {
+    "title": "Cosmetics",
+    "github": "https://github.com/thanhtuyen3007/comestics",
+    "live": "https://comestics.vercel.app",
+    "description": "A cosmetics brand landing page recreated from a design for layout and styling practice. Built with TypeScript and Bootstrap.",
+    "features": [
+      "Static landing page built from design",
+      "Fully responsive",
+      "Built with TypeScript and SASS"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "React Router",
+      "Bootstrap",
+      "React-Bootstrap",
+      "SASS",
+      "Font Awesome",
+      "Lucide React",
+      "Clsx"
+    ]
+  }
+]
