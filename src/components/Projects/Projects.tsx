@@ -3,7 +3,7 @@ import styles from "./Projects.module.scss";
 import { ListProject } from "~/components/ListProject/ListProject.tsx";
 export const Projects = () => {
   return (
-    <section
+    <section id="projects"
       className={clsx(
         styles.projectsSection,
         "bg-primary text-white text-center py-30"

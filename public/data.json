@@ -10,18 +10,8 @@
       "State management with Redux Toolkit",
       "Responsive layout using Bootstrap"
     ],
-    "techStack": [
-      "React",
-      "TypeScript",
-      "Redux Toolkit",
-      "React Router DOM",
-      "Bootstrap",
-      "React-Bootstrap",
-      "SASS",
-      "JSON Server",
-      "Axios",
-      "Font Awesome"
-    ]
+    "techStack": "React, TypeScript, Redux Toolkit, React Router DOM, Bootstrap, React-Bootstrap, SASS, JSON Server, Axios",
+    "reverse": false
   },
   {
     "title": "Travel Booking",
@@ -33,17 +23,8 @@
       "Search functionality and routing",
       "Responsive UI with layout fidelity"
     ],
-    "techStack": [
-      "React",
-      "React Router DOM",
-      "Bootstrap",
-      "SASS",
-      "Axios",
-      "Normalize.css",
-      "Font Awesome",
-      "Tippy.js",
-      "Customize CRA"
-    ]
+    "techStack": "React, React Router DOM, Bootstrap, React-Bootstrap, SASS, JSON Server, Axios",
+    "reverse": true
   },
   {
     "title": "Cosmetics",
@@ -55,16 +36,7 @@
       "Fully responsive",
       "Built with TypeScript and SASS"
     ],
-    "techStack": [
-      "React",
-      "TypeScript",
-      "React Router",
-      "Bootstrap",
-      "React-Bootstrap",
-      "SASS",
-      "Font Awesome",
-      "Lucide React",
-      "Clsx"
-    ]
+    "techStack": "React, TypeScript, Bootstrap, React-Bootstrap, SASS",
+    "reverse": false
   }
 ]

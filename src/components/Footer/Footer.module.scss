@@ -5,3 +5,10 @@
   align-items: center;
   gap: 42.8125rem;
 }
+.iconLink{
+  padding: 5px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

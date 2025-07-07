@@ -45,8 +45,8 @@ export const Contact = () => {
       </div>
       <div className={clsx(styles.contactImg, "sm:hidden md:block ")}>
         <img
-          src={images.ContactUs}
-          alt="ContactUs Image"
+          src={images.Mail}
+          alt="Mail Image"
           className={clsx(styles.image, "w-full h-auto")}
         />
       </div>

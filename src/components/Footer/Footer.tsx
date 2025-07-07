@@ -16,8 +16,13 @@ export const Footer = () => {
           </p>
         </div>
         <div className={clsx(styles.footerIcons, "flex gap-15")}>
-          <Figma  color="#fff" fontSize={13} />
-          <Github color="#fff" fontSize={13} />
+          <a className={clsx(styles.iconLink)} href="https://www.figma.com/files/team/1408357051359792332/recents-and-sharing?fuid=1408357047142682670">
+            <Figma color="#fff" fontSize={13} />
+          </a>
+          <a className={clsx(styles.iconLink)} href="https://github.com/thanhtuyen3007">
+            {" "}
+            <Github color="#fff" fontSize={13} />
+          </a>
         </div>
       </div>
     </footer>

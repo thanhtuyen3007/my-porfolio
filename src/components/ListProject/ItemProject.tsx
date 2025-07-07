@@ -5,25 +5,28 @@ type ItemProjectProps = {
   data: {
     title: string;
     image?: string;
-    githubUrl?: string;
-    liveDemoUrl?: string;
+    github?: string;
+    live?: string;
     description: string;
     features: string[];
     techStack?: string;
+    reverse: boolean;
   };
 };
 
 export const ItemProject = ({ data }: ItemProjectProps) => {
   return (
     <article
+      data-aos="fade-up"
       className={clsx(
         styles.itemProject,
-        "bg-secondary mx-auto my-35 p-20 grid md:grid-cols-2 gap-10 text-black w-7xl border border-secondary-light rounded-4xl shadow-md"
+        data.reverse && "flex-row-reverse",
+        "bg-secondary mx-auto my-35 p-20 md:flex  gap-x-35 text-black w-7xl border border-secondary-light rounded-4xl shadow-md"
       )}
     >
       <div className={clsx(styles.itemImg)}>
         <img
-          className={clsx(styles.img, "rounded-4xl")}
+          className={clsx(styles.img, "rounded-4xl w-full h-full object-cover")}
           src={data.image || images.noImages}
           alt={data.title}
         />
@@ -31,29 +34,37 @@ export const ItemProject = ({ data }: ItemProjectProps) => {
       <div
         className={clsx(styles.itemContent, "text-left text-white text-base")}
       >
-        <h3
+        <h2
           className={clsx(
             styles.itemTitle,
             "text-xl font-bold capitalize pb-15"
           )}
         >
           {data.title}
-        </h3>
-        <div className={clsx(styles.itemLinks, "flex")}>
-          {data.githubUrl && (
-            <a href={data.githubUrl} className={clsx(styles.link, "btn-pink")} target="_blank" rel="noopener noreferrer">
+        </h2>
+        <div className={clsx(styles.itemLinks, "flex gap-30 pb-20")}>
+          {data.github && (
+            <a
+              href={data.github}
+              className={clsx(styles.link, "btn-pink")}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
           )}
-          {data.liveDemoUrl && (
-            <a href={data.liveDemoUrl} className={clsx(styles.link, "btn-mint")} target="_blank" rel="noopener noreferrer">
+          {data.live && (
+            <a
+              href={data.live}
+              className={clsx(styles.link, "btn-mint")}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LiveDemo
             </a>
           )}
         </div>
-        <p className={clsx(styles.itemDescription)}>
-          {data.description}
-        </p>
+        <p className={clsx(styles.itemDescription)}>{data.description}</p>
         <ul className={clsx(styles.itemFeatures, "list-disc pl-10 mt-10")}>
           {data.features.map((feature, idx) => (
             <li key={idx} className={clsx(styles.itemFeature, "py-10")}>
@@ -67,7 +78,6 @@ export const ItemProject = ({ data }: ItemProjectProps) => {
           )}
         </ul>
       </div>
-
     </article>
   );
 };

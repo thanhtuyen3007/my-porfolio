@@ -2,7 +2,10 @@ import skillData from "~/dataSkills.json";
 
 export const Skills = () => {
   return (
-    <section id="skills" className="flex flex-col items-center justify-center w-full bg-secondary text-white py-30">
+    <section
+      id="skills"
+      className="flex flex-col items-center justify-center w-full bg-secondary text-white py-30"
+    >
       <h2 className="text-2xl capitalize font-bold py-15">
         Front-end Technologies I Have Experience
       </h2>

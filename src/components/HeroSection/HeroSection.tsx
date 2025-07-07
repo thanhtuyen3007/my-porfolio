@@ -10,14 +10,15 @@ export const HeroSection = () => {
         styles.heroSection,
         "grid",
         "md:grid-cols-2",
-        "gap-10",
+        "gap-30",
         "bg-primary text-white border-b-2 border-dashed border-b-mint-medium"
       )}
     >
       <div
+        data-aos="fade-right"
         className={clsx(
           styles.heroContent,
-          "text-white flex flex-col justify-center pl-50"
+          "text-white flex flex-col justify-center items-start pl-50"
         )}
       >
         <h2 className={clsx(styles.title, "text-4xl font-medium capitalize")}>
@@ -31,18 +32,29 @@ export const HeroSection = () => {
         >
           front-end developer
         </h1>
-        <p className={clsx(styles.greeting, "text-base font-normal")}>
+
+        <span
+          className={clsx(
+            styles.greeting,
+            "inline-block w-fit text-base font-normal"
+          )}
+        >
           Welcome to my portfolio. I enjoy building clean and simple web
           interfaces.
-        </p>
+        </span>
 
-        <button
+        <a
+          type="button"
+          href="#projects"
           className={clsx(styles.ctaButton, "btn-pink mt-20 w-fit text-base")}
         >
           See my project
-        </button>
+        </a>
       </div>
-      <div className={clsx(styles.heroImage, "hidden md:block")}>
+      <div
+        data-aos="fade-left"
+        className={clsx(styles.heroImage, "hidden md:block")}
+      >
         <img
           src={images.CodeTyping}
           alt="Hero Image"

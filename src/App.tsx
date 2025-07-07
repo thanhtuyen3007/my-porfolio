@@ -7,6 +7,8 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Skills } from "./components/Skills/Skills";
 import { Contact } from "./components/Contact/Contact";
 import { Projects } from "./components/Projects/Projects";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -17,15 +19,22 @@ function App() {
       setHeaderHeight(headerRef.current.offsetHeight);
     }
   }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // thời gian (ms)
+      offset: 100, // khoảng cách scroll để bắt đầu
+      once: false, // chỉ animate 1 lần
+    });
+  }, []);
   return (
-    <div className="App">
+    <div className="App bg-primary text-white">
       <Header ref={headerRef} />
 
       <main style={{ marginTop: headerHeight }}>
         <HeroSection />
         <AboutMe />
         <Skills />
-        <Projects/>
+        <Projects />
         <Contact />
       </main>
       <Footer />

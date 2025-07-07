@@ -23,16 +23,16 @@ export const ListProject = () => {
       {data.map((itemProject, index) => (
         <ItemProject key={index} data={itemProject} />
       ))}
-      
-        <a
-          className="btn-outline mx-auto"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          See more on GitHub
-        </a>
-      
+
+      <a
+        data-aos="zoom-in"
+        className={clsx(styles.btnSeeMoreProject, "btn-outline mx-auto")}
+        href="https://github.com/thanhtuyen3007"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        See more on GitHub
+      </a>
     </div>
   );
 };
