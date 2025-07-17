@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  .customPrev,
+  .customNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: var(--color-mint-medium);
+    cursor: pointer;
+  }
+
+  .customPrev {
+    left: 10px;
+  }
+
+  .customNext {
+    right: 10px;
+  }
+}
+.mySwiper {
+  :global(.swiper-pagination-bullet-active) {
+    background-color: var(--color-mint-medium) !important;
+  }
+}

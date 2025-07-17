@@ -11,7 +11,13 @@
       "Responsive layout using Bootstrap"
     ],
     "techStack": "React, TypeScript, Redux Toolkit, React Router DOM, Bootstrap, React-Bootstrap, SASS, JSON Server, Axios",
-    "reverse": false
+    "images": [
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752419863/collectionSection_svtszc.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752419871/productDetail_txocf4.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752419860/cartZus_tnxc9k.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752419856/allWatch_tqmfgd.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752419852/addProduct_qodyd2.png"
+    ]
   },
   {
     "title": "Travel Booking",
@@ -24,7 +30,11 @@
       "Responsive UI with layout fidelity"
     ],
     "techStack": "React, React Router DOM, Bootstrap, React-Bootstrap, SASS, JSON Server, Axios",
-    "reverse": true
+    "images": [
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752393501/tourSection_q0uyia.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752393467/tourItem_z2ie1o.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752393550/news_kgyrql.png"
+    ]
   },
   {
     "title": "Cosmetics",
@@ -37,6 +47,11 @@
       "Built with TypeScript and SASS"
     ],
     "techStack": "React, TypeScript, Bootstrap, React-Bootstrap, SASS",
-    "reverse": false
+    "images": [
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752395541/comecstic_xd58ya.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752395531/gallery_w2gyna.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752395527/newProduct_pv0tlz.png",
+      "https://res.cloudinary.com/djka3a0ah/image/upload/v1752395553/Contact_nnp3ge.png"
+    ]
   }
 ]

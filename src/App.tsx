@@ -27,7 +27,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="App bg-primary text-white">
+    <div className="App bg-primary text-black">
       <Header ref={headerRef} />
 
       <main style={{ marginTop: headerHeight }}>

@@ -1,16 +1,15 @@
 import clsx from "clsx";
 import styles from "./ListProject.module.scss";
-import images from "~/assets";
+import { ImagesProject } from "../ImagesProject/ImagesProject";
 type ItemProjectProps = {
   data: {
     title: string;
-    image?: string;
     github?: string;
     live?: string;
     description: string;
     features: string[];
     techStack?: string;
-    reverse: boolean;
+    images: string[];
   };
 };
 
@@ -20,19 +19,15 @@ export const ItemProject = ({ data }: ItemProjectProps) => {
       data-aos="fade-up"
       className={clsx(
         styles.itemProject,
-        data.reverse && "flex-row-reverse",
-        "bg-secondary mx-auto my-35 p-20 md:flex  gap-x-35 text-black w-7xl border border-secondary-light rounded-4xl shadow-md"
+        "bg-secondary mx-auto my-35 p-20  md:grid grid-cols-2  gap-x-35 text-black w-7xl border border-secondary-light rounded-4xl shadow-md"
       )}
     >
-      <div className={clsx(styles.itemImg)}>
-        <img
-          className={clsx(styles.img, "rounded-4xl w-full h-full object-cover")}
-          src={data.image || images.noImages}
-          alt={data.title}
-        />
-      </div>
+      <ImagesProject imagesSlider={data.images} title={data.title}/>
       <div
-        className={clsx(styles.itemContent, "text-left text-white text-base")}
+        className={clsx(
+          styles.itemContent,
+          "md:basic-1/2 text-left text-white text-base"
+        )}
       >
         <h2
           className={clsx(

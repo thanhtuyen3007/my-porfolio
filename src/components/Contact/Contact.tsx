@@ -15,7 +15,10 @@ export const Contact = () => {
         "bg-secondary p-30 text-white border-b-1 border-b-pink-light"
       )}
     >
-      <div className={clsx(styles.contactContent, "text-white pl-50 col-span-2")}>
+      <div
+        data-aos="fade-up"
+        className={clsx(styles.contactContent, "text-white pl-50 col-span-2")}
+      >
         <h2
           className={clsx(
             styles.contactTitle,
@@ -43,7 +46,10 @@ export const Contact = () => {
         </ul>
         <span className="text-pink-light text-xl">Thanks for visiting!👋</span>
       </div>
-      <div className={clsx(styles.contactImg, "sm:hidden md:block ")}>
+      <div
+        data-aos="fade-up"
+        className={clsx(styles.contactImg, "sm:hidden md:block ")}
+      >
         <img
           src={images.Mail}
           alt="Mail Image"
