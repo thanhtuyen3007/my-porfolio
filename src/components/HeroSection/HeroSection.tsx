@@ -8,17 +8,17 @@ export const HeroSection = () => {
       id="home"
       className={clsx(
         styles.heroSection,
-        "grid",
+        "md:grid",
         "md:grid-cols-2",
-        "gap-30",
-        "bg-primary text-white border-b-2 border-dashed border-b-mint-medium"
+        "md:gap-30",
+        "p-15 bg-primary text-white border-b-2 border-dashed border-b-mint-medium"
       )}
     >
       <div
         data-aos="fade-right"
         className={clsx(
           styles.heroContent,
-          "text-white flex flex-col justify-center items-start pl-50"
+          "text-white flex flex-col justify-center md:items-start md:pl-50 text-center md:text-left"
         )}
       >
         <h2 className={clsx(styles.title, "text-4xl font-medium capitalize")}>
@@ -46,7 +46,7 @@ export const HeroSection = () => {
         <a
           type="button"
           href="#projects"
-          className={clsx(styles.ctaButton, "btn-pink mt-20 w-fit text-base")}
+          className={clsx(styles.ctaButton, "btn-pink mt-20 w-fit text-sm md:text-base m-auto md:m-0 ")}
         >
           See my project
         </a>

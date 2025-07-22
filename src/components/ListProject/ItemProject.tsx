@@ -19,7 +19,7 @@ export const ItemProject = ({ data }: ItemProjectProps) => {
       data-aos="fade-up"
       className={clsx(
         styles.itemProject,
-        "bg-secondary mx-auto my-35 p-20  md:grid grid-cols-2  gap-x-35 text-black w-7xl border border-secondary-light rounded-4xl shadow-md"
+        "bg-secondary w-full max-w-full mx-auto my-35 p-20  md:grid grid-cols-2  gap-x-35 text-black border border-secondary-light rounded-4xl shadow-md"
       )}
     >
       <ImagesProject imagesSlider={data.images} title={data.title}/>

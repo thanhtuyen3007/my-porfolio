@@ -6,7 +6,7 @@ export const Projects = () => {
     <section id="projects"
       className={clsx(
         styles.projectsSection,
-        "bg-primary text-white text-center py-30"
+        "bg-primary text-white text-center p-30"
       )}
     >
       <h2

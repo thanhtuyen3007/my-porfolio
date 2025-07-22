@@ -1,5 +1,5 @@
 .btn-pink {
-  @apply bg-pink-light text-black px-35 py-10 rounded-full transition cursor-pointer hover:bg-pink-medium hover:text-white;
+  @apply bg-pink-light text-black px-15 md:px-35 py-10 rounded-full transition cursor-pointer hover:bg-pink-medium hover:text-white;
 }
 .btn-mint {
   @apply bg-mint-light text-black px-35 py-10 rounded-full transition cursor-pointer hover:bg-mint-medium hover:text-white;

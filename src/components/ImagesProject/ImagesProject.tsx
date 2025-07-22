@@ -16,7 +16,7 @@ interface ImagesProjectProps {
 export const ImagesProject = ({ imagesSlider, title }: ImagesProjectProps) => {
   return (
     <div
-      className={clsx(styles.wrapper, "md:basic-1/2 p-30 rounded-4xl h-full")}
+      className={clsx(styles.wrapper, "md:basic-1/2 rounded-4xl h-full")}
     >
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
@@ -28,12 +28,12 @@ export const ImagesProject = ({ imagesSlider, title }: ImagesProjectProps) => {
           nextEl: ".custom-next",
           prevEl: ".custom-prev",
         }}
-        className={clsx(styles.mySwiper, "w-full mx-auto rounded-4xl")}
+        className={clsx(styles.mySwiper, "mx-auto rounded-4xl")}
       >
         {imagesSlider.map((image, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="md:shrink-0">
             <img
-              className="w-full h-fit object-cover rounded-4xl"
+              className="w-full max-w-full h-auto block object-cover rounded-4xl"
               src={image || images.noImages}
               alt={`${title} - ${index}`}
             />

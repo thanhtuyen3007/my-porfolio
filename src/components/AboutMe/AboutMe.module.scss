@@ -1,4 +1,3 @@
-
 .content {
   max-width: 50%;
   margin: auto;
@@ -11,4 +10,9 @@
   text-align: left;
   padding-left: 10px;
   border-left: 2px solid var(--color-pink-medium);
+}
+@media screen and (max-width: 640px) {
+  .content {
+    max-width: 80%;
+  }
 }

@@ -2,7 +2,7 @@
   {
     "title": "Zus Watch",
     "github": "https://github.com/thanhtuyen3007/zus-watch",
-    "live": "https://zus-watch.vercel.app",
+    "live": "https://zus-watch.netlify.app/",
     "description": "An e-commerce website for watches with shopping cart and admin dashboard (CRUD). Built with TypeScript, Redux Toolkit, and JSON Server.",
     "features": [
       "Product list, detail, cart system",
@@ -22,7 +22,7 @@
   {
     "title": "Travel Booking",
     "github": "https://github.com/thanhtuyen3007/travel-booking",
-    "live": "https://travel-booking.vercel.app",
+    "live": "https://travel-explore-now.netlify.app/",
     "description": "A responsive tour booking website with tour listings, search, and booking form. Built for UI/UX practice with React and Bootstrap.",
     "features": [
       "Tour listing and booking form",
@@ -39,7 +39,7 @@
   {
     "title": "Cosmetics",
     "github": "https://github.com/thanhtuyen3007/comestics",
-    "live": "https://comestics.vercel.app",
+    "live": "https://glowcosmetics.netlify.app/",
     "description": "A cosmetics brand landing page recreated from a design for layout and styling practice. Built with TypeScript and Bootstrap.",
     "features": [
       "Static landing page built from design",

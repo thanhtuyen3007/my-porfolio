@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import styles from "./Header.module.scss";
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 
 // Header component using forwardRef to allow parent access to the header DOM node
 export const Header = forwardRef<HTMLDivElement>((_props, ref) => {
@@ -24,7 +24,7 @@ export const Header = forwardRef<HTMLDivElement>((_props, ref) => {
         <ul
           className={clsx(
             styles.navList,
-            "flex bg-secondary text-black border rounded-sm border-secondary-light px-5 py-5 "
+            "flex w-fit bg-secondary text-black border rounded-sm border-secondary-light px-5 py-5 "
           )}
         >
           {/* Render navigation links for each section */}
