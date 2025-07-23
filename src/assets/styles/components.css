@@ -1,14 +1,11 @@
 .btn-pink {
-  @apply bg-pink-light text-black px-15 md:px-35 py-10 rounded-full transition cursor-pointer hover:bg-pink-medium hover:text-white;
+  @apply bg-pink-light text-black px-20 md:px-35 py-10 rounded-full transition cursor-pointer hover:bg-pink-medium hover:text-white;
 }
 .btn-mint {
-  @apply bg-mint-light text-black px-35 py-10 rounded-full transition cursor-pointer hover:bg-mint-medium hover:text-white;
+  @apply bg-mint-light text-black px-20 md:px-35 py-10 rounded-full transition cursor-pointer hover:bg-mint-medium hover:text-white;
 }
 .btn-outline {
-  @apply bg-primary w-fit text-white px-35 py-10 rounded-full transition cursor-pointer border border-white;
-}
-.item-skill {
-  @apply lg:bg-white text-center w-full h-fit py-7 text-sm capitalize text-black rounded-full transition lg:border lg:border-black;
+  @apply bg-primary w-fit text-white px-20 md:px-35 py-10 rounded-full transition cursor-pointer border border-white;
 }
 .nav-link {
   @apply text-white py-5 px-10 capitalize text-center font-normal transition hover:bg-pink-medium hover:border-secondary-light hover:rounded-sm font-roboto;
