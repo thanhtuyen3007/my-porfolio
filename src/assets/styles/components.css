@@ -8,7 +8,7 @@
   @apply bg-primary w-fit text-white px-35 py-10 rounded-full transition cursor-pointer border border-white;
 }
 .item-skill {
-  @apply bg-white text-center w-full h-fit py-7 text-sm capitalize text-black rounded-full transition border border-black;
+  @apply lg:bg-white text-center w-full h-fit py-7 text-sm capitalize text-black rounded-full transition lg:border lg:border-black;
 }
 .nav-link {
   @apply text-white py-5 px-10 capitalize text-center font-normal transition hover:bg-pink-medium hover:border-secondary-light hover:rounded-sm font-roboto;

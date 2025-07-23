@@ -2,26 +2,26 @@
   {
     "title": "Programming Languages",
     "color": "#FFE5F0",
-    "skills": ["HTML", "CSS", "JavaScript", "TypeScript"]
+    "skills": ["HTML, CSS, JavaScript, TypeScript"]
   },
   {
     "title": "Frameworks & Libraries",
     "color": "#dfe5fd",
-    "skills": ["ReactJS", "Redux", "Bootstrap", "Tailwind CSS"]
+    "skills": ["ReactJS, Redux, Bootstrap, Tailwind CSS"]
   },
   {
     "title": "Version Control",
     "color": "#fdf7dd",
-    "skills": ["Git", "GitHub"]
+    "skills": ["Git, GitHub"]
   },
   {
     "title": "Deployment and Hosting",
     "color": "#e6faf0",
-    "skills": ["Netlify", "Render"]
+    "skills": ["Netlify, Render"]
   },
   {
     "title": "Other",
     "color": "#e5d8f5",
-    "skills": ["Figma", "Canva"]
+    "skills": ["Figma, Canva"]
   }
 ]

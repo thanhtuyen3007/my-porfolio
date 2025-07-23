@@ -11,7 +11,7 @@ export const Footer = () => {
         )}
       >
         <div className={clsx(styles.footerContent)}>
-          <p className={clsx(styles.footerAuthor)}>
+          <p className={clsx(styles.footerAuthor, 'lg:text-sm text-xs')}>
             2025, Designed & built by Thanh Tuyen
           </p>
         </div>

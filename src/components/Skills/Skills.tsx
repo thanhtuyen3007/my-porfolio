@@ -25,7 +25,7 @@ export const Skills = () => {
             key={index}
             style={{ backgroundColor: skill.color }}
             className={clsx(
-              "max-w-7xl w-full md:grid md:grid-cols-12 gap-20 px-10 py-10 md:py-30 my-20 rounded-lg",
+              "max-w-7xl w-full grid grid-cols-12 gap-20 px-10 py-10 md:py-30 my-20 rounded-lg",
               styles.skillGroup
             )}
           >
@@ -36,25 +36,28 @@ export const Skills = () => {
                 styles.skillTitle
               )}
             >
-              <h3 className={clsx("text-black  pl-20", styles.skillHeading)}>
+              <h3
+                className={clsx(
+                  "text-black font-bold  lg:pl-20",
+                  styles.skillHeading
+                )}
+              >
                 {skill.title}
               </h3>
             </div>
             {/* skills */}
             <ul
               className={clsx(
-                "col-span-8 flex md:grid md:grid-cols-8 gap-5 md:gap-15 ",
+                "col-span-8 lg:grid-cols-8 gap-5 lg:gap-15 ",
                 styles.skillList
               )}
             >
-              {skill.skills.map((item, index) => (
-                <li
-                  key={index}
-                  className={clsx("item-skill", styles.skillItem)}
-                >
-                  {item}
-                </li>
-              ))}
+              <span
+                key={index}
+                className={clsx('text-black',styles.skillItem)}
+              >
+                {skill.skills}
+              </span>
             </ul>
           </div>
         ))}

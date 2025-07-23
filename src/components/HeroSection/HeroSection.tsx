@@ -18,7 +18,7 @@ export const HeroSection = () => {
         data-aos="fade-right"
         className={clsx(
           styles.heroContent,
-          "text-white flex flex-col justify-center md:items-start md:pl-50 text-center md:text-left"
+          "text-white flex flex-col justify-center md:items-start lg:pl-50 text-center md:text-left"
         )}
       >
         <h2 className={clsx(styles.title, "text-4xl font-medium capitalize")}>

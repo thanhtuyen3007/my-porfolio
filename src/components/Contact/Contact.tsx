@@ -17,7 +17,7 @@ export const Contact = () => {
     >
       <div
         data-aos="fade-up"
-        className={clsx(styles.contactContent, "text-white pl-50 col-span-2")}
+        className={clsx(styles.contactContent, "text-white lg:pl-50 col-span-2")}
       >
         <h2
           className={clsx(
@@ -46,7 +46,7 @@ export const Contact = () => {
             </a>
           </li>
         </ul>
-        <span className="text-pink-light text-xl">Thanks for visiting!👋</span>
+        <span className="text-pink-light text-base">Thanks for visiting!👋</span>
       </div>
       <div
         data-aos="fade-up"

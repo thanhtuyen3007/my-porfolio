@@ -17,14 +17,14 @@ export const Header = forwardRef<HTMLDivElement>((_props, ref) => {
         className={clsx(styles.nav, "md:flex bg-primary text-white text-base")}
       >
         {/* Logo or site title */}
-        <h1 className={clsx(styles.navlogo, "capitalize hidden md:block")}>
+        <h1 className={clsx(styles.navlogo, "capitalize hidden lg:block")}>
           Thanh Tuyen - Intern frontend{" "}
         </h1>
         {/* Navigation list */}
         <ul
           className={clsx(
             styles.navList,
-            "flex w-fit bg-secondary text-black border rounded-sm border-secondary-light px-5 py-5 "
+            "flex w-fit bg-secondary text-black border rounded-sm border-secondary-light m-auto lg:m-0 px-5 py-5 "
           )}
         >
           {/* Render navigation links for each section */}

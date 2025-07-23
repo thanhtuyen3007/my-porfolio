@@ -10,7 +10,7 @@ export const Projects = () => {
       )}
     >
       <h2
-        className={clsx(styles.title, "text-3xl font-openSans font-bold mb-20")}
+        className={clsx(styles.title, "lg:text-3xl text-xl font-openSans font-bold lg:mb-20")}
       >
         Here are a few of my favorite projects:
       </h2>
